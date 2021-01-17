@@ -1,0 +1,59 @@
+body {
+   background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhIVFRUVFRUVFRUVFRUVFRUVFRUWFxUVFRUYHSggGBolHRYVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrNy0rKzc3Kzc3NystKysrKysrKystKysrNy03Ky0tKy0rNys3KysrNysrLTcrNys3K//AABEIASsAqAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIHA//EACcQAQEBAAAEBAcBAQAAAAAAAAABEQIhQXExkbHwElFhgaHB4dED/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDh855M9eaCAKdPfqAFLUBaIsgItgAYWhAQWwBFEBQ0BFwJAQXAEF0BFKgAuAAACKAB77ACKaBiLUAUARSrASQSAAsW28pnuglIFAEUF6ffx6oiggqAoVAURbAEVAGviQ0D3/EVABUAUtNBBQEUs/KA1xcOfjnO253ZUA1AAUAEGuWdd59s5Z+wZFQFDADAIAigBqNXOWXv9P8AQRFKBVz3zTeiA0yKACAsa/7Thlvw22dLZ8N8PltzzZqApgQDQKAEMBFkKAgoBoRAVFQFAwBcQAKSloBvkgCkAEUQFBAVFgBJ8wQBSFoIKSAGoALEUCrL8/ugAigASIAtAEWoAKaAAgCreX8ZBb5GE9wvYClAEUARYUALDUBTAoIKaCAAAAt6cv6CAqACwoAUsC0AEAFNA0ACBUBUVAAAAABUAWIAtAAkBbxW59OU7ePL72+YIioC6EQFRS0AAEFQAAAAAABUAXAAFt99ENAqAAACiKBgABKgAAAAAAAADUMWCCJWmaogAAACo1OH8ePp+wIlAEFqAAAAAAAAA3BJThQVmt8ff1/bzUAAAAFiLAAQAAAAAAAAAABqMtcIJqLYgAAAACxFgKi2MgAAAAAAAAAANSsgAAAAAACyosBcZbZoIAAAAAAAAAAAAAAAAAAsQBtmrKlBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf/2Q==");
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .wrapper {
+    margin: 3%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 10%;
+    opacity: 0.6;
+    filter: alpha(opacity=50);
+    text-align: center;
+  }
+  h1 {
+    font-size: 300%;
+    text-align: center;
+    color: white;
+  }
+  .button {
+    background-color: green;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 250%;
+    height: 100px;
+    border-radius: 30px;
+    
+
+  }
+  .form-group, #quotes, #quoteDisplay {
+    font-family: "Aref Ruqaa", serif;
+    font-size: 190%;
+    color: black;
+  }
+  
+  .form-control {
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 80%;
+    font-family: "Aref Ruqaa", serif;
+    color: white;
+  }
+  
+  #authorDisplay {
+    font-family: "Pacifico", cursive;
+    font-size: 200%;
+    color: white;
+  }
+  .error {
+    color: red;
+    font-size: 200%;
+  }
+  input[type="number"] {
+    width: 30%;
+    padding: 10px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+  }
